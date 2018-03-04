@@ -4,11 +4,11 @@ Install
 ---
 
 ```bash
-$ yarn add @kirjava/tinytween
+$ yarn add tinyanims
 ```
 
 Extremely tiny (279 bytes minified & gzip'd) library that exposes some basic methods for doing animations.
-Exports a global 'tinytween' when dumped in your page as a script tag.
+Exports a global 'tinyanims' when dumped in your page as a script tag.
 
 Requires requestAnimationFrame.
 
@@ -26,7 +26,7 @@ Usage
 ---
 
 ```javascript
-import { tween, lerp, ease } from '@kirjava/tinytween';
+import { tween, lerp, ease } from 'tinyanims';
 
 // log a bunch of numbers from -20 to 100
 
