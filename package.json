@@ -2,7 +2,7 @@
   "name": "tinyanims",
   "description": "Animation primitives for browsers",
   "homepage": "https://github.com/kirjavascript/tinyanims",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": {
     "type": "git",

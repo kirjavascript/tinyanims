@@ -51,6 +51,5 @@ const txt = document.body.appendChild(Object.assign(
             loop();
         }
     });
-} ()
-
+} ();
 ```
