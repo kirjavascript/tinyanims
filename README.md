@@ -49,7 +49,6 @@ const txt = document.body.appendChild(Object.assign(
 
         if (t == 1) {
             loop();
-            console.log('loop');
         }
     });
 } ()

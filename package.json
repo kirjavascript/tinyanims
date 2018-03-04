@@ -1,11 +1,11 @@
 {
-  "name": "tinytween",
+  "name": "tweenlite",
   "description": "Animation primitives for browsers",
-  "homepage": "https://github.com/kirjavascript/tinytween",
+  "homepage": "https://github.com/kirjavascript/tweenlite",
   "version": "1.0.0",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:kirjavascript/tinytween.git"
+    "url": "git@github.com:kirjavascript/tweenlite.git"
   }
 }
