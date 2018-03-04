@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Demo</title>
+    </head>
+    <body>
+        <script src="index.js"></script>
+        <script>
+            const { tween, lerp, ease } = tinytween;
+
+            tween((t) => {
+                const i = lerp(-20, 100, ease(t));
+                console.log(i);
+            }, 500);
+
+            const txt = document.body.appendChild(Object.assign(
+                document.createElement('span'),
+                { textContent: 'hello' },
+            ));
+
+            ~function loop () {
+                tween((t) => {
+                    const i = lerp(20, 30, ease(t));
+                    txt.style.fontSize = `${i}px`;
+
+                    if (t == 1) {
+                        loop();
+                    }
+                });
+            } ()
+
+        </script>
+    </body>
+</html>
