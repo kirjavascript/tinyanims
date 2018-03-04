@@ -7,7 +7,7 @@ Install
 $ yarn add tweenlite
 ```
 
-Extremely tiny library that exposes some basic methods for doing animations.
+Extremely tiny (279 bytes minified & gzip'd) library that exposes some basic methods for doing animations.
 Exports a global 'tweenlite' when dumped in your page as a script tag.
 
 Requires requestAnimationFrame.
